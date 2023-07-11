@@ -24,6 +24,21 @@ body {
     cursor: pointer;
 }
 
+.section-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.section-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
 /* banner part */
 .header {
     background: rgba(229, 84, 115, 0.10);
@@ -56,4 +71,44 @@ body {
 .banner-img {
     width: 500px;
     padding-top: 30px;
+}
+
+/* our featured flower part */
+.our-featured-flowers {
+    padding: 100px 0px;
+}
+
+.feature-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    gap: 20px;
+}
+
+.feature-img img {
+    padding: 100px 20px 0px;
+    width: 300px;
+    height: 300px;
+}
+
+.feature-img .img-1 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.feature-img .img-2 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.feature-img .img-3 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.feature-item a {
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
 }
