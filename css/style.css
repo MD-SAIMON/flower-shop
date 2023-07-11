@@ -129,6 +129,10 @@ body {
 }
 
 /* hot deals part */
+.hot-deals-container {
+    background: rgba(229, 84, 115, 0.05);
+}
+
 .hot-deals {
     display: flex;
     align-items: center;
@@ -137,7 +141,6 @@ body {
     padding: 100px;
     margin: 100px;
     border-radius: 8px;
-    background: rgba(229, 84, 115, 0.05);
 }
 
 .hot-deals h3 {
@@ -172,4 +175,19 @@ body {
 
 .instagram-images img {
     width: 250px;
+}
+
+/* contact part */
+.contact {
+    text-align: center;
+    background: url('../images/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1060px;
+    padding: 100px 0px;
+    margin: 100px auto;
+}
+
+input[type="email"] {
+    padding: 20px 100px;
 }
