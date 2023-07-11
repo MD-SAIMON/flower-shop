@@ -200,10 +200,33 @@ input[type="email"] {
     gap: 100px;
     width: 1060px;
     margin: 0 auto;
-    padding: 100px 0px;
+    padding-bottom: 100px;
 }
 
 .extra>img {
     width: 600px;
     height: 400px;
+}
+
+/* footer */
+.footer {
+    text-align: center;
+    background: #111010;
+    padding: 100px;
+}
+
+.footer .section-title {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.footer .section-title span,
+.footer .section-description {
+    color: #fff;
+}
+
+.footer-copyright {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
 }
